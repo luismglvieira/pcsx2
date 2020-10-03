@@ -163,6 +163,9 @@
     <Filter Include="System\Ps2\SPU2">
       <UniqueIdentifier>{bed493d6-96dc-4057-a1f2-31f88ec927d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="System\DEV9">
+      <UniqueIdentifier>{8d5454f9-590c-4c53-aae1-8391c6465e50}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\Utilities\folderdesc.txt">
@@ -997,6 +1000,30 @@
     <ClCompile Include="..\..\SPU2\SndOut_Portaudio.cpp">
       <Filter>System\Ps2\SPU2</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\DEV9\DEV9.cpp">
+      <Filter>System\DEV9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEV9\flash.cpp">
+      <Filter>System\DEV9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEV9\pcap_io.cpp">
+      <Filter>System\DEV9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEV9\smap.cpp">
+      <Filter>System\DEV9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEV9\Win32\Config.cpp">
+      <Filter>System\DEV9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEV9\Win32\net.cpp">
+      <Filter>System\DEV9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEV9\Win32\tap-win32.cpp">
+      <Filter>System\DEV9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEV9\Win32\Win32.cpp">
+      <Filter>System\DEV9</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Patch.h">
@@ -1515,6 +1542,30 @@
     <ClInclude Include="..\..\SPU2\Windows\WinConfig.h">
       <Filter>System\Ps2\SPU2</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\DEV9\ata.h">
+      <Filter>System\DEV9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEV9\Config.h">
+      <Filter>System\DEV9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEV9\DEV9.h">
+      <Filter>System\DEV9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEV9\net.h">
+      <Filter>System\DEV9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEV9\pcap_io.h">
+      <Filter>System\DEV9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEV9\smap.h">
+      <Filter>System\DEV9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEV9\Win32\resource.h">
+      <Filter>System\DEV9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEV9\Win32\tap.h">
+      <Filter>System\DEV9</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\wxResources.rc">
@@ -1525,6 +1576,9 @@
     </ResourceCompile>
     <ResourceCompile Include="..\..\SPU2\Windows\SPU2.rc">
       <Filter>System\Ps2\SPU2</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\DEV9\Win32\DEV9ghzdrk.rc">
+      <Filter>System\DEV9</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1596,6 +1650,25 @@
     <CustomBuild Include="..\..\gui\Resources\Logo.png">
       <Filter>AppHost\Resources</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\controllerFull.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\controllerThreeQuarters.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\controllerHalf.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\circlePressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\crossPressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\downPressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\l1Pressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\l2Pressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\l3Pressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\leftPressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\r1Pressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\r2Pressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\r3Pressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\rightPressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\selectPressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\squarePressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\startPressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\trianglePressed.png" />
+    <CustomBuild Include="..\..\Recording\VirtualPad\img\upPressed.png" />
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="..\PCSX2.manifest">
