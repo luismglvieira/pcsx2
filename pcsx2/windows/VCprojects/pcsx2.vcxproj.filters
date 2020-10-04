@@ -1012,9 +1012,6 @@
     <ClCompile Include="..\..\DEV9\smap.cpp">
       <Filter>System\DEV9</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\DEV9\Win32\Config.cpp">
-      <Filter>System\DEV9</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\DEV9\Win32\net.cpp">
       <Filter>System\DEV9</Filter>
     </ClCompile>
@@ -1022,6 +1019,9 @@
       <Filter>System\DEV9</Filter>
     </ClCompile>
     <ClCompile Include="..\..\DEV9\Win32\Win32.cpp">
+      <Filter>System\DEV9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEV9\Win32\DEV9WinConfig.cpp">
       <Filter>System\DEV9</Filter>
     </ClCompile>
   </ItemGroup>
